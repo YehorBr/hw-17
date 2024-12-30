@@ -1,0 +1,54 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+ul,li{
+    list-style: none;
+}
+
+.img-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    background-color: #e7e7e7;
+
+    padding: 30px 50px;
+
+    border-radius: 50px;
+    
+}
+
+.img-list li{
+    width: calc(25% - 10px); /* Три зображення в ряд */
+    height: auto;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+button{
+    display: block;
+
+    color: white;
+    background-color: rgb(0, 162, 255);
+
+    padding: 15px 200px;
+
+    margin-top: 100px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    border: none;
+
+    font-size: 25px;
+}
+
+button:focus,
+button:hover{
+    background-color: rgb(0, 135, 214);
+}
