@@ -5,7 +5,7 @@
   "homepage": "https://github.com/YehorBr/hw-17",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url 'https://github.com/YehorBr/hw-17'"
+    "build": "parcel build src/*.html --public-url '/hw-17/'"
   },
   "repository": {
     "type": "git",
